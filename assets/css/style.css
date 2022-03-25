@@ -1,0 +1,107 @@
+@import "flex-grid.css";
+
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  max-width: 2000px;
+}
+
+.container {
+  margin: 3rem 5rem;
+
+}
+.header{
+  justify-content: space-around;
+  align-items: normal;
+}
+.imglog{
+  padding-top: 3rem;
+height:auto;
+width: 100%;
+}
+.naheader{
+  justify-content: space-around;
+  align-items: normal;
+}
+.icon{
+  font-weight: bold;
+display:inline ;
+
+}
+.or{
+color: orange;
+}
+.bl{
+  color: blue;
+}
+.re{
+  color: red;
+}
+.contak{
+  padding-top: 3rem;
+}
+.tell{
+  font-weight: bold;
+  color:red;
+}
+a{
+  text-decoration: none;
+}
+.box{
+ padding-bottom: .5rem;
+}
+.nav a{
+  background-color: #cebd6a9f;
+  padding: 1rem .5rem;
+}
+.nav a:hover{
+  background-color: #deba04;
+  padding: 1rem;
+}
+.nav a{
+text-align: center;
+color:rgb(134, 87, 0);
+}
+.bold{
+  font-weight: bold;
+}
+.midle{
+  padding: 0 15px;
+}
+.center{
+  text-align: center;
+}
+footer{
+  background-color: #cebd6a9f;
+}
+.colorma{
+  color:rgb(134, 87, 0);
+}
+.line{
+display: line;
+}
+.op img{
+  display: line;
+  width:5%;
+  height:auto;
+}
+footer div  div a{
+  display: block;
+  width: 30%;
+padding: 2%;
+color:rgb(134, 87, 0);
+background-color: #d3c168;
+border-radius: 10px;
+margin-left: 2%;
+}
+footer div  div a:hover{
+  background-color: #deba04;
+}
+footer{
+  padding-top: 2%;
+}
+.baner{
+  padding-top: 1rem;
+  text-align:center
+}
