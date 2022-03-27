@@ -10,7 +10,8 @@ header  {
   justify-content: space-between;
   position: fixed;
   top:  0px;
-  padding-left: 40px;
+  left: 0px;
+  padding: 0 40px;
   background-color: rgba(0, 0, 0, 0.9);
 }
 .logo img{
@@ -118,4 +119,41 @@ h1{
 }
 .padding_h1{
 padding-top: 6rem;
+}
+.cursBox{
+  height: 48rem;
+  width: auto;
+  justify-content: space-around;
+}
+.cursCard{
+  background-color: white;
+  border-radius: 2rem;
+  margin: 0 2rem;
+  width: 25rem;
+}
+.cursCard img{
+  margin:45px 0;
+  width: 100%;
+  height: auto;
+}
+.cursCard .cursCardInfo{
+  padding: 0 30px 30px 30px;
+  color: black;
+}
+.cursCardInfo a{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: .5rem;
+  padding: .4rem;
+  font-family: 'Source Code Pro',Arial,sans-serif;
+  font-weight: 700;
+  font-size: 14pt;
+}
+.zapBlack{
+ background-color: white;
+  color: black;
+}
+.podrobW{
+  background-color: black;
+  color: white;
 }
