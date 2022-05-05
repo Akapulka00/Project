@@ -3,7 +3,6 @@ body{
   font-family: 'Source Code Pro',Arial,sans-serif;
   background-color: black;
   color: white;
-  padding: 0 4rem;
 }
 header  {
   display: inline-block;
@@ -121,7 +120,6 @@ h1{
 padding-top: 6rem;
 }
 .cursBox{
-  height: 48rem;
   width: auto;
   justify-content: space-around;
 }
@@ -151,9 +149,49 @@ padding-top: 6rem;
 }
 .zapBlack{
  background-color: white;
+  margin-left: 1rem;
   color: black;
 }
 .podrobW{
   background-color: black;
   color: white;
+}
+.Our_advantages{
+  margin-top: 5rem;
+}
+.info_image{
+  display: inline-block;
+  width: 2rem;
+  height: auto;
+}
+.Our_advantages h1{
+  font-size: 38px;
+}
+.Our_advantages h3{
+  color: rgb(18, 120, 188);
+  display: inline-block;
+}
+.Our_advantages p{
+  color: #97b0cb;
+}
+.reviews{
+  margin-top: 8rem;
+  padding-top: 8rem ;
+  background-image: url("https://static.tildacdn.com/lib/unsplash/5fc9de8c-b5e3-7e27-5ca0-82e0bb3cf629/photo.jpg");
+  height: 811px;
+  width: 100%;
+}
+.reviews h1{
+  display: inline-block;
+  font-size: 52px;
+}
+
+main{
+  padding: 0 4rem;
+}
+.reviews cursCard{
+  margin: 0;
+}
+.reviews {
+  text-align: center;
 }
