@@ -10,10 +10,10 @@
 <body>
 
 <header class="flex-row">
-    <div class="logo col-2">
-        <img src="/img/logo.png">
-        </div>
-    <nav class=" flex-row col-6 nav_bloc">
+
+        <img class="logo col-2" src="/img/logo.png">
+
+    <nav class=" flex-row col-9 nav_bloc">
       <a href="/home">Главная</a>
       <a href="">Контакты</a>
       <a href="">Курсы</a>
@@ -95,16 +95,59 @@
 <div class="reviews">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-5 ">
+            <div class="col-lg-5 col-sm-12 ">
                 <h1>Нам важно ваше мнение</h1>
             </div>
-                <div class=" col-sm-12 col-6 cursCard">
-                    <form>
-                        a
+                <div class=" col-lg-4 col-sm-12 cursCard pt-4">
+                    <form class="form_reviews">
+                        <h4>Оставьте ваш отзыв</h4>
+                        <div class="form-group ">
+                            <input type="text" class="form-control" id="name"  placeholder="Имя">
+                        </div>
+                        <div class="form-group pt-2">
+                            <input type="text" class="form-control" id="specialization" placeholder="Специализация">
+                        </div>
+                        <div class="form-group pt-2">
+                            <input type="tel" class="form-control" id="telphone" placeholder="Телефон">
+                        </div>
+                        <div class="form-group pt-2">
+                            <input type="text"  class="form-control" style="height: 200px;" id="text" placeholder="Текст">
+                        </div>
+
+                        <button type="submit" class="btn btn-dark mt-2 mb-4 buttonse">Submit</button>
                     </form>
                 </div>
     </div>
 
+    </div>
+</div>
+<div>
+    <h1>Отызвы о  нас </h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="Первый слайд">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Второй слайд">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Третий слайд">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
 <div class="test"></div>

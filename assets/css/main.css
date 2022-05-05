@@ -13,9 +13,10 @@ header  {
   padding: 0 40px;
   background-color: rgba(0, 0, 0, 0.9);
 }
-.logo img{
+.logo {
 width: 100%;
   height: auto;
+  object-fit: scale-down;
 }
 nav {
   justify-content: flex-end ;
@@ -178,6 +179,8 @@ padding-top: 6rem;
   margin-top: 8rem;
   padding-top: 8rem ;
   background-image: url("https://static.tildacdn.com/lib/unsplash/5fc9de8c-b5e3-7e27-5ca0-82e0bb3cf629/photo.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   height: 811px;
   width: 100%;
 }
@@ -189,9 +192,20 @@ padding-top: 6rem;
 main{
   padding: 0 4rem;
 }
-.reviews cursCard{
+.reviews .cursCard{
+  display: inline-block;
   margin: 0;
 }
-.reviews {
+.reviews .row {
+  justify-content: center;
   text-align: center;
+}
+.form_reviews h4{
+  color: black;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Source Code Pro',Arial,sans-serif;
+}
+.buttonse{
+  width: 100%;
 }
