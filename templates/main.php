@@ -13,13 +13,13 @@
 
         <img class="logo col-2" src="/img/logo.png">
 
-    <nav class=" flex-row col-9 nav_bloc">
-      <a href="/home">Главная</a>
-      <a href="">Контакты</a>
-      <a href="">Курсы</a>
-        <a href="">Отзывы</a>
-        <a href="">Партфолио</a>
-        <a href="">О нас</a>
+    <nav class=" flex-row col-lg-9 col-12 nav_bloc">
+      <a class="col-sm-12 col-lg-1 text-center" href="/home">Главная</a>
+      <a class="col-sm-12  col-lg-1 text-center" href="#a1">Контакты</a>
+      <a  class="col-sm-12 col-lg-1 text-center"  href="#a2">Курсы</a>
+        <a class="col-sm-12 col-lg-1 text-center" href="#a3">Отзывы</a>
+        <a  class="col-sm-12 col-lg-1 text-center" href="">Партфолио</a>
+        <a class="col-sm-12 col-lg-1 text-center" href="#a4">О нас</a>
     </nav>
 </header>
 
@@ -37,10 +37,10 @@
     </div>
     </div>
     <div class="padding_h1">
-        <h1>Наши курсы</h1>
+        <h1 id="a2">Наши курсы</h1>
     </div>
     <div class="cursBox flex-row">
-        <div class="cursCard ">
+        <div  class="cursCard ">
             <img src="/img/5.jpeg">
             <div class="cursCardInfo">
             <h2 class="cursTitile">Основы протезирования зубов керамическими реставрациями CAD CAM</h2>
@@ -114,7 +114,7 @@
                             <input type="text"  class="form-control" style="height: 200px;" id="text" placeholder="Текст">
                         </div>
 
-                        <button type="submit" class="btn btn-dark mt-2 mb-4 buttonse">Submit</button>
+                        <button type="submit" class="btn btn-dark mt-2 mb-4 buttonse">Отправить</button>
                     </form>
                 </div>
     </div>
@@ -122,7 +122,7 @@
     </div>
 </div>
 <div>
-    <h1>Отызвы о  нас </h1>
+    <h1 id="a3">Отызвы о  нас </h1>
     <!--Carousel Wrapper-->
     <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
         <!--Indicators-->
@@ -183,7 +183,7 @@
 
 </div>
 <div class="info_video">
-    <h1>О нас! </h1>
+    <h1 id="a4">О нас! </h1>
     <div class="info_video">
         <div id="rec308159955" class="r t-rec t-rec_pt_30 t-rec_pb_210 r_anim r_showed" style="padding-top:30px;padding-bottom:210px; " data-record-type="4"><!-- T121 --><div class="t121"><center><div class="t-video-lazyload t-width t-width_10" style="height: 438.75px;" data-videolazy-type="youtube" data-videolazy-id="xkeAPaNwPio" data-blocklazy-id="308159955" data-videolazy-load="true" data-videolazy-height="540px"><iframe id="youtubeiframe308159955" width="100%" height="540px" src="//youtube.com/embed/xkeAPaNwPio?rel=0&amp;fmt=18&amp;html5=1&amp;showinfo=0" frameborder="0" allowfullscreen="" style="height: 438.75px;"></iframe></div></center></div><script> $(document).ready(function() { t121_setHeight("308159955"); $(window).on('load', function() { t121_setHeight("308159955"); }); $(window).on('scroll', t_throttle(function() { t121_setHeight("308159955"); })); $(window).on('resize', function() { if ($('#allrecordstable').length > 0) { $('#rec308159955').find('.t-video-lazyload').css('height', '540px'); $('#rec308159955').find('.t-video-lazyload').find('iframe').css('height', '540px'); } else { t121_setHeight("308159955"); } }); $('#rec308159955 .t121').on('displayChanged', function() { t121_setHeight("308159955"); }); }); </script></div>
     </div>
@@ -194,7 +194,7 @@
     <div class=" card container">
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A18bf8b168cb7cc302cf7deec1b07fb574c0c028a679f05976cc17b44a642b303&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
         <div class="info box">
-            <div class="bloc_info">
+            <div id="a1" class="bloc_info">
                 <h3>Свяжитесь с нами</h3>
                 <p>Санкт-Петербург ул. Писарева 18</p>
                 <p>Тел.: +7(961)806-40-64</p>
