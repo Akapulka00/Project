@@ -228,18 +228,15 @@ main{
 .card_feedback .feedback_text{
   color: #97b0cb;
   font-size: 22px;
-  font-family: 'Source Code Pro';
   margin: 0;
 }
 .card_feedback .feedback_fio,.feedback_post{
   color: #1278bc;
   font-size: 16px;
-  font-family: 'Source Code Pro';
   margin: 0;
 }
 .card_feedback .feedback_company{
   font-size: 12px;
-  font-family: 'Source Code Pro',Arial,sans-serif;
   font-weight: 300;
   margin: 0;
   color: #97b0cb;
@@ -250,7 +247,6 @@ main{
 footer{
   text-align: center;
   background-color: #ffffff;
-  font-family: 'Source Code Pro';
   color: #000000;
 }
 .info p{
@@ -357,4 +353,16 @@ footer .box .bloc_info{
   margin: 2rem 0;
   font-size: 14pt;
   color: #446589;
+}
+.info_about_curse{
+  display: block;
+  color: black;
+  position: fixed;
+  height:100%;
+  width:100%;
+  background-color: white;
+  z-index: 100;
+}
+.escepe_button{
+  margin-left: 2rem;
 }

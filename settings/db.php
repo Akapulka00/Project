@@ -4,7 +4,7 @@ return [
     'port' => '3306',
     'username' => 'vadim',
     'pwd' => "2552",
-    'db_name' => 'climbers'
+    'db_name' => 'testDB'
 ];
 
 // запуск сервера:
