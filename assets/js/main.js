@@ -39,6 +39,19 @@ function zapis(){
    let button_info_curse=document.querySelector('.podrobW');
    button_info_curse.addEventListener("click", function (e){
        e.preventDefault();
+     ////////////////Делаем фетч/////////////////////
+       let data=button_info_curse.getAttribute('data-course');
+       let formData = new FormData();
+       formData.append('ID_course', data);
+       console.log(data);
+       fetch('/show_course', {
+           method: 'post',
+           body: formData
+       }).then(response => response.json())
+           .then(data => {
+            console.log(data)// получили данные о курсе отправляем их на страницу
+           });
+    ////////////////////////////////////
        console.log("sdasd");
        let bloc=document.createElement("div");
        let heder=document.querySelector('header');
@@ -61,6 +74,7 @@ function zapis(){
            let dell_bloc=document.querySelector('.info_about_curse');
            dell_bloc.remove();
        })
+
    });
 }
 tellPhone();

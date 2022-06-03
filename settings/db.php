@@ -2,9 +2,9 @@
 return [
     'server' => 'localhost',
     'port' => '3306',
-    'username' => 'vadim',
+    'username' => 'root',
     'pwd' => "2552",
-    'db_name' => 'testDB'
+    'db_name' => 'my_work'
 ];
 
 // запуск сервера:

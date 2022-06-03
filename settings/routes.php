@@ -12,9 +12,9 @@ return [
         'controller' => 'Course\Controllers\IndexController::index'
     ],
     [
-    'path' => '/cakeform',
-    'method' => 'GET',
-    'controller' => 'Course\Controllers\AddCourseController::formCake'
+    'path' => '/show_course',
+    'method' => 'POST',
+    'controller' => 'Course\Controllers\AddCourseController::show_course'
     ],
     [
     'path' => '/addcake',

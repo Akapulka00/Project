@@ -53,13 +53,18 @@ class AddCourseController extends Controller
 
 
     }
-    public function delCakeById(){
+    public function show_course(){
         $post = $_POST;
-        $cakeId=$post['id'];
+        $courseId=$post['ID_course'];
+        if(isset($courseId)){
+            $course = $this->CourseDb->getCourselistById($courseId);
+            echo json_encode($course);
+        }else{
+            echo "Данные не  полученны";
+        }
+       // $cake = $this->cakesDB->delCake($cakeId);
 
-        $cake = $this->cakesDB->delCake($cakeId);
 
-        echo "Данные успешно удалены";
 
     }
 

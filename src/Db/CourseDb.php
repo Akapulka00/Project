@@ -70,4 +70,10 @@ class CourseDb
         $statement->execute([$id]);
         return;
     }
+    public function  getCourselistById($id){
+        $sql = "select * from promo where ID=? ";
+        $statement = $this->connection->prepare($sql);
+        $statement->execute([$id]);
+        return $statement->fetch(PDO::FETCH_ASSOC);
+    }
 }
