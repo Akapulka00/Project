@@ -46,7 +46,7 @@
             <h2 class="cursTitile">Основы протезирования зубов керамическими реставрациями CAD CAM</h2>
             <strong class="cursInfo">Лектор: Левандовский Эдвард Викторович — стоматолог-ортопед, специалист в цифровой стоматологии с опытом работы более 6 лет.</strong>
             <p class="cursPrise">10000 р.</p>
-                <a class=" podrobW" href="">Подробнее</a>
+                <a class=" podrobW" data-course="1" href="">Подробнее</a>
                 <a class="px-2 zapBlack" href="">Записаться</a>
             </div>
         </div>
