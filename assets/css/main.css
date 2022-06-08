@@ -188,7 +188,9 @@ padding-top: 6rem;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   height: 811px;
-  width: 100%;
+  width: 100vw;
+  position: relative;
+  right: 5rem;
 }
 .reviews h1{
   display: inline-block;
@@ -357,7 +359,7 @@ footer .box .bloc_info{
 .info_about_curse{
   display: block;
   color: black;
-  position: fixed;
+  position: absolute;
   height:100%;
   width:100%;
   background-color: white;
@@ -365,4 +367,18 @@ footer .box .bloc_info{
 }
 .escepe_button{
   margin-left: 2rem;
+}
+.cursInfoPhoto_1{
+  width: 100%;
+  height: auto;
+}
+.opacity_0{
+  display: none;
+}
+.white_container{
+  background-color: white;
+}
+.bloc_white{
+  background-color: white;
+  height: 100%;
 }

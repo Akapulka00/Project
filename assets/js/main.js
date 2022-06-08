@@ -36,6 +36,7 @@ function tellPhone(){
     });
 }
 function zapis(){
+    let buffdat;
    let button_info_curse=document.querySelector('.podrobW');
    button_info_curse.addEventListener("click", function (e){
        e.preventDefault();
@@ -49,31 +50,44 @@ function zapis(){
            body: formData
        }).then(response => response.json())
            .then(data => {
-            console.log(data)// получили данные о курсе отправляем их на страницу
+               buffdat=data;
+               let bloc=document.createElement("div");
+               let heder=document.querySelector('body');
+               let oportunity=document.querySelectorAll('.show');
+
+               //
+
+               heder.classList.add("bloc_white");
+               for (let a of  oportunity){
+                  a.classList.add("opacity_0");
+               }
+               bloc.classList.add('info_about_curse');
+               bloc.innerHTML='<a class="t651__btn_wrapper escepe_button" style="background:#ffffff;">  <svg class="t651__icon-close" width="16px" height="16px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1" fill="#000" fill-rule="evenodd"> <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> </g> </svg> </a>' +
+                   '<div class="container white_container">\n' +
+                   '  <div class="row">' +
+                   '    <div class="col-lg-6">\n' +
+                   ' <img class="cursInfoPhoto_1" src="/img/'+buffdat["foto_1"]+'">'+
+                   '    </div>\n' +
+                   '    <div class="col-lg-6">\n' +
+                   '     <h3 class="info_title">'+ buffdat["name"]+'</h3>' +
+                   '<p>'+buffdat["text"]+'</p>'+
+                   '    </div>\n' +
+                   '  </div>\n' +
+                   '</div>';
+               heder.prepend(bloc);
+               let clic_button=document.querySelector('.escepe_button');
+               clic_button.addEventListener('click', function (e){
+                   e.preventDefault();
+                   heder.classList.remove("bloc_white");
+                   for (let a of  oportunity){
+                       a.classList.remove("opacity_0");
+                   }
+                   let dell_bloc=document.querySelector('.info_about_curse');
+                   dell_bloc.remove();
+               })
            });
     ////////////////////////////////////
-       console.log("sdasd");
-       let bloc=document.createElement("div");
-       let heder=document.querySelector('header');
-       bloc.classList.add('info_about_curse');
-       bloc.innerHTML='<a class="t651__btn_wrapper escepe_button" style="background:#ffffff;">  <svg class="t651__icon-close" width="16px" height="16px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <g stroke="none" stroke-width="1" fill="#000" fill-rule="evenodd"> <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect> </g> </svg> </a>' +
-           '<div class="container">\n' +
-           '  <div class="row">' +
-           '    <div class="col-6">\n' +
-           '      Одна из двух колонок\n' +
-           '    </div>\n' +
-           '    <div class="col-6">\n' +
-           '      Одна из двух колонок\n' +
-           '    </div>\n' +
-           '  </div>\n' +
-           '</div>';
-       heder.before(bloc);
-       let clic_button=document.querySelector('.escepe_button');
-       clic_button.addEventListener('click', function (e){
-           e.preventDefault();
-           let dell_bloc=document.querySelector('.info_about_curse');
-           dell_bloc.remove();
-       })
+
 
    });
 }
