@@ -12,6 +12,11 @@ return [
         'controller' => 'Course\Controllers\IndexController::index'
     ],
     [
+        'path' => '/reception',
+        'method' => 'GET',
+        'controller' => 'Course\Controllers\IndexController::zapis'
+    ],
+    [
     'path' => '/show_course',
     'method' => 'POST',
     'controller' => 'Course\Controllers\AddCourseController::show_course'

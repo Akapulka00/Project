@@ -20,4 +20,9 @@ class IndexController extends Controller
 
         echo $this->getTemplate('main.php');
     }
+    public function zapis(){
+
+
+        echo $this->getTemplate('zapis.php');
+    }
 }

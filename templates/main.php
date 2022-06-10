@@ -47,7 +47,7 @@
             <strong class="cursInfo">Лектор: Левандовский Эдвард Викторович — стоматолог-ортопед, специалист в цифровой стоматологии с опытом работы более 6 лет.</strong>
             <p class="cursPrise">10000 р.</p>
                 <a class=" podrobW" data-course="1" href="">Подробнее</a>
-                <a class="px-2 zapBlack" href="">Записаться</a>
+                <a class="px-2 zapBlack" href="/reception">Записаться</a>
             </div>
         </div>
         <a class="cursCard ">
