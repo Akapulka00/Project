@@ -50,12 +50,27 @@
                 <a class="px-2 zapBlack" href="/reception">Записаться</a>
             </div>
         </div>
-        <a class="cursCard ">
+        <div  class="cursCard ">
+            <img src="/img/foto_2.jpg">
+            <div class="cursCardInfo">
+                <h2 class="cursTitile">Особенности эндодонтического лечения в детской стоматологии. Все самое важное за один день</h2>
+                <strong class="cursInfo">Лектор – Лещева Людмила Андреевна, детский врач стоматолог с опытом работы более 15 лет.</strong>
+                <p class="cursPrise">15000 р.</p>
+                <a class=" podrobW" data-course="2"  href="">Подробнее</a>
+                <a class="px-2 zapBlack" data-course="2" href="/reception">Записаться</a>
+            </div>
+        </div>
+        <div  class="cursCard ">
+            <img src="/img/foto_3.jpg">
+            <div class="cursCardInfo">
+                <h2 class="cursTitile">Основы моделирования зубов и лайфхаки реставраций</h2>
+                <strong class="cursInfo">Лектор – Хомич Екатерина Николаевна, врач стоматолог- терапевт, ортопед, хирург. Преподаватель кафедры стоматологии СПбГМУ с 2011г. Главный врач «Студии красивых улыбок».</strong>
+                <p class="cursPrise">30000 р.</p>
+                <a class=" podrobW" data-course="3" href="">Подробнее</a>
+                <a class="px-2 zapBlack" data-course="3" href="/reception">Записаться</a>
+            </div>
+        </div>
 
-        </a>
-        <a class="cursCard ">
-
-        </a>
     </div>
     <div class="Our_advantages">
         <h1>Наши преймущества</h1>
