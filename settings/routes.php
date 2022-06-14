@@ -22,30 +22,24 @@ return [
     'controller' => 'Course\Controllers\AddCourseController::show_course'
     ],
     [
-    'path' => '/addcake',
-    'method' => 'POST',
-    'controller' => 'Course\Controllers\AddCourseController::addCake'
-   ],
-  [
-    'path' => '/cake',
-    'method' => 'GET',
-    'controller' => 'Course\Controllers\AddCourseController::showCake'
-  ],
-  [
-    'path' => '/getcake',
-    'method' => 'POST',
-    'controller' => 'Course\Controllers\AddCourseController::printcakeById'
-  ],
-  [
-    'path' => '/getcake',
-    'method' => 'GET',
-    'controller' => 'Course\Controllers\AddCourseController::getCakeByID'
-  ],
-  [
-    'path' => '/delcake',
-    'method' => 'POST',
-    'controller' => 'Course\Controllers\AddCourseController::delCakeById'
-  ]
-
+        'path' => '/otziv',
+        'method' => 'GET',
+        'controller' => 'Course\Controllers\IndexController::otziv'
+    ],
+    [
+        'path' => '/autification',
+        'method' => 'GET',
+        'controller' => 'Course\Controllers\IndexController::autification'
+    ],
+    [
+        'path' => '/admin_panel',
+        'method' => 'GET',
+        'controller' => 'Course\Controllers\IndexController::admin_panel'
+    ],
+    [
+        'path' => '/portfolio',
+        'method' => 'GET',
+        'controller' => 'Course\Controllers\IndexController::portfolio'
+    ]
 
 ];

@@ -384,7 +384,66 @@ footer .box .bloc_info{
 }
 .reception_fourm_container{
   margin-top: 9rem;
+  display: flex;
+  justify-content: center;
   align-content: center;
-  margin-left: auto;
-  margin-right: auto;
+
+}
+.form-group label{
+  color: #97b0cb;
+  margin-left: 1.5rem;
+}
+.form_reviews  h7{
+  color: #97b0cb;
+  text-align: center;
+  display: block;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.form-group {
+  padding: 0 1rem 1rem 1rem;
+}
+.form_reviews h4{
+  font-family: 'Source Code Pro',Arial,sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 42px;
+  line-height: 1.23;
+  margin-bottom: 24px;
+  margin-left: 1rem;
+}
+.centr{
+  display: block;
+  align-content: center;
+}
+.portfolio_container {
+  margin-top: 9rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  line-height: 1.55;
+  font-family: 'Source Code Pro',Arial,sans-serif;
+  font-weight: 300;
+  color: #97b0cb;
+}
+
+
+.img_box{
+  width: 100%;
+  height: auto;
+}
+.reception_admin_container{
+  align-content: center;
+  justify-content: center;
+  margin-top: 9rem;
+  background-color: snow;
+}
+.reception_table_container{
+  align-content: center;
+  justify-content: center;
+  margin-top: 9rem;
+  background-color: snow;
+  color: black;
 }

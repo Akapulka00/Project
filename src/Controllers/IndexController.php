@@ -25,4 +25,16 @@ class IndexController extends Controller
 
         echo $this->getTemplate('zapis.php');
     }
+    public function portfolio(){
+        echo $this->getTemplate('portfolio.php');
+    }
+    public function otziv(){
+        echo $this->getTemplate('otziv.php');
+    }
+    public function autification(){
+        echo $this->getTemplate('autification.php');
+    }
+    public function admin_panel(){
+        echo $this->getTemplate('admin_panel.php');
+    }
 }

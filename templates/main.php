@@ -11,14 +11,14 @@
 
 <header class="flex-row show ">
 
-        <img class="logo col-2" src="/img/logo.png">
+    <a  href="/home" class="col-2"><img class="logo " src="/img/logo.png"></a>
 
     <nav class=" flex-row col-lg-9 col-12 nav_bloc">
       <a class="col-sm-12 col-lg-1 text-center" href="/home">Главная</a>
       <a class="col-sm-12  col-lg-1 text-center" href="#a1">Контакты</a>
       <a  class="col-sm-12 col-lg-1 text-center"  href="#a2">Курсы</a>
         <a class="col-sm-12 col-lg-1 text-center" href="#a3">Отзывы</a>
-        <a  class="col-sm-12 col-lg-1 text-center" href="">Партфолио</a>
+        <a  class="col-sm-12 col-lg-1 text-center" href="/portfolio">Партфолио</a>
         <a class="col-sm-12 col-lg-1 text-center" href="#a4">О нас</a>
     </nav>
 </header>
